@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "TomActivity.h"
+@interface ViewController ()<TomActivityDelegate>
+@property (weak, nonatomic) IBOutlet UIButton *luyinClick;
+- (IBAction)luyin:(id)sender;
 
 @end
 
@@ -26,4 +28,16 @@
 }
 
 
+- (IBAction)luyin:(id)sender {
+    
+    TomActivity *lxActivity = [[TomActivity alloc] initWithTitle:@"准备录音" delegate:self height:0];
+    
+    [lxActivity showInView:self.view];
+    
+}
+- (void)didClickOnButtonWithUrl:(NSURL *)url
+{
+    
+    NSLog(@"文件存放在%@",url.absoluteString);
+}
 @end

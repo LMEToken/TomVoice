@@ -15,6 +15,14 @@
 		E27D83C31E9B6522006BEB6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27D83C11E9B6522006BEB6F /* LaunchScreen.storyboard */; };
 		E27D83CE1E9B6522006BEB6F /* TomVoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E27D83CD1E9B6522006BEB6F /* TomVoiceTests.m */; };
 		E27D83D91E9B6522006BEB6F /* TomVoiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E27D83D81E9B6522006BEB6F /* TomVoiceUITests.m */; };
+		E27D83EB1E9B65DD006BEB6F /* TomActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = E27D83E81E9B65DD006BEB6F /* TomActivity.m */; };
+		E27D83EC1E9B65DD006BEB6F /* SpectrumView.m in Sources */ = {isa = PBXBuildFile; fileRef = E27D83EA1E9B65DD006BEB6F /* SpectrumView.m */; };
+		E27D83F61E9B716D006BEB6F /* voiceend@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E27D83F01E9B716D006BEB6F /* voiceend@2x.png */; };
+		E27D83F71E9B716D006BEB6F /* voiceend@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E27D83F11E9B716D006BEB6F /* voiceend@3x.png */; };
+		E27D83F81E9B716D006BEB6F /* voicestar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E27D83F21E9B716D006BEB6F /* voicestar@2x.png */; };
+		E27D83F91E9B716D006BEB6F /* voicestar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E27D83F31E9B716D006BEB6F /* voicestar@3x.png */; };
+		E27D83FC1E9B765B006BEB6F /* voiceing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E27D83FA1E9B765B006BEB6F /* voiceing@2x.png */; };
+		E27D83FD1E9B765B006BEB6F /* voiceing@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E27D83FB1E9B765B006BEB6F /* voiceing@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,16 @@
 		E27D83D41E9B6522006BEB6F /* TomVoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomVoiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27D83D81E9B6522006BEB6F /* TomVoiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TomVoiceUITests.m; sourceTree = "<group>"; };
 		E27D83DA1E9B6522006BEB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27D83E71E9B65DD006BEB6F /* TomActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TomActivity.h; sourceTree = "<group>"; };
+		E27D83E81E9B65DD006BEB6F /* TomActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TomActivity.m; sourceTree = "<group>"; };
+		E27D83E91E9B65DD006BEB6F /* SpectrumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpectrumView.h; sourceTree = "<group>"; };
+		E27D83EA1E9B65DD006BEB6F /* SpectrumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpectrumView.m; sourceTree = "<group>"; };
+		E27D83F01E9B716D006BEB6F /* voiceend@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voiceend@2x.png"; sourceTree = "<group>"; };
+		E27D83F11E9B716D006BEB6F /* voiceend@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voiceend@3x.png"; sourceTree = "<group>"; };
+		E27D83F21E9B716D006BEB6F /* voicestar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicestar@2x.png"; sourceTree = "<group>"; };
+		E27D83F31E9B716D006BEB6F /* voicestar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicestar@3x.png"; sourceTree = "<group>"; };
+		E27D83FA1E9B765B006BEB6F /* voiceing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voiceing@2x.png"; sourceTree = "<group>"; };
+		E27D83FB1E9B765B006BEB6F /* voiceing@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voiceing@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,7 @@
 		E27D83B21E9B6522006BEB6F /* TomVoice */ = {
 			isa = PBXGroup;
 			children = (
+				E27D83E61E9B65D4006BEB6F /* TomVoiceSDK */,
 				E27D83B61E9B6522006BEB6F /* AppDelegate.h */,
 				E27D83B71E9B6522006BEB6F /* AppDelegate.m */,
 				E27D83B91E9B6522006BEB6F /* ViewController.h */,
@@ -138,6 +157,31 @@
 				E27D83DA1E9B6522006BEB6F /* Info.plist */,
 			);
 			path = TomVoiceUITests;
+			sourceTree = "<group>";
+		};
+		E27D83E61E9B65D4006BEB6F /* TomVoiceSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E27D83ED1E9B715F006BEB6F /* images */,
+				E27D83E71E9B65DD006BEB6F /* TomActivity.h */,
+				E27D83E81E9B65DD006BEB6F /* TomActivity.m */,
+				E27D83E91E9B65DD006BEB6F /* SpectrumView.h */,
+				E27D83EA1E9B65DD006BEB6F /* SpectrumView.m */,
+			);
+			path = TomVoiceSDK;
+			sourceTree = "<group>";
+		};
+		E27D83ED1E9B715F006BEB6F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E27D83FA1E9B765B006BEB6F /* voiceing@2x.png */,
+				E27D83FB1E9B765B006BEB6F /* voiceing@3x.png */,
+				E27D83F01E9B716D006BEB6F /* voiceend@2x.png */,
+				E27D83F11E9B716D006BEB6F /* voiceend@3x.png */,
+				E27D83F21E9B716D006BEB6F /* voicestar@2x.png */,
+				E27D83F31E9B716D006BEB6F /* voicestar@3x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +251,7 @@
 				TargetAttributes = {
 					E27D83AF1E9B6522006BEB6F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B78UJ3KK2S;
 						ProvisioningStyle = Automatic;
 					};
 					E27D83C81E9B6522006BEB6F = {
@@ -246,9 +291,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27D83FD1E9B765B006BEB6F /* voiceing@3x.png in Resources */,
+				E27D83FC1E9B765B006BEB6F /* voiceing@2x.png in Resources */,
+				E27D83F61E9B716D006BEB6F /* voiceend@2x.png in Resources */,
 				E27D83C31E9B6522006BEB6F /* LaunchScreen.storyboard in Resources */,
+				E27D83F71E9B716D006BEB6F /* voiceend@3x.png in Resources */,
 				E27D83C01E9B6522006BEB6F /* Assets.xcassets in Resources */,
+				E27D83F81E9B716D006BEB6F /* voicestar@2x.png in Resources */,
 				E27D83BE1E9B6522006BEB6F /* Main.storyboard in Resources */,
+				E27D83F91E9B716D006BEB6F /* voicestar@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +324,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27D83EC1E9B65DD006BEB6F /* SpectrumView.m in Sources */,
 				E27D83BB1E9B6522006BEB6F /* ViewController.m in Sources */,
+				E27D83EB1E9B65DD006BEB6F /* TomActivity.m in Sources */,
 				E27D83B81E9B6522006BEB6F /* AppDelegate.m in Sources */,
 				E27D83B51E9B6522006BEB6F /* main.m in Sources */,
 			);
@@ -424,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B78UJ3KK2S;
 				INFOPLIST_FILE = TomVoice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xh.TomVoice;
@@ -435,6 +489,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B78UJ3KK2S;
 				INFOPLIST_FILE = TomVoice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xh.TomVoice;
